@@ -1,0 +1,24 @@
+#content {
+	padding: 50px 98px 0 98px;
+}
+#layer-content {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(/index/bg.jpg) no-repeat center center;
+}
+#layer-content .container {
+	height: 100%;
+	padding: 250px 0 0 0;
+	background: rgba(0,0,0,.2);
+	box-shadow: 0px 1px 10px 1px #333;
+	-webkit-box-shadow: 0px 1px 10px 1px #333;
+}
+#layer-content h1, #layer-content p{
+	text-align: center;
+	color: #E44A68;
+	font-size: 36px;
+	font-weight: bold;
+}
