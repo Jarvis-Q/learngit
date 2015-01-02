@@ -1,0 +1,173 @@
+#header {
+  border-bottom: 1px solid #ccc;
+  background: #515151;
+  margin: 30px auto 0 auto;
+}
+#bodyer {
+  width: 990px;
+  min-height: 400px;
+  _height: 400px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+#footer {
+  padding: 15px 0;
+  background: #ededed;
+}
+.col-sub {
+  float: left;
+  width: 180px;
+}
+.col-sub .left-menu {
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.col-sub li a{
+  display: block;
+  height: 33px;
+  padding: 15px 20px 0 40px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 14px;
+}
+.main-wrap {
+  margin-left: 180px;
+}
+
+/** header zone **/
+.gd-nav {
+  position: relative;
+  width: 990px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+/* stripped page for logo */
+.gd-nav .mini-logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 10px;
+  background: #fff;
+}
+.gd-nav ul {
+  margin-left: 334px;
+}
+.gd-nav li {
+  float: left;
+  padding: 0 32px;
+  text-align: center;
+  font: 500 16px \5FAE\8F6F\96C5\9ED1;
+}
+.gd-nav li a {
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+.gd-nav li a:link, .gd-nav li a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.gd-nav li a.current, .gd-nav li a:hover {
+  color: #39f;
+}
+
+/** sub-menu **/
+.child-menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 40px;
+}
+.child-menu .arrow {
+  position: absolute;
+  top: -12px;
+  left: 0;
+}
+.child-menu .arrow i {
+  font-family: \5b8b\4f53;
+  font-style: normal;
+  color: #39f;
+  display: block;
+  height: 10px;
+  overflow: hidden;
+}
+.child-menu .menu-name {
+  display: none;
+  position: absolute;
+  line-height: 40px;
+}
+.child-menu .menu-name a{
+  padding: 0 20px;
+  font-weight: 700;
+  color: #333;
+}
+.child-menu .menu-name i {
+  color: #999;
+}
+
+/* corpinfo & sitemaps declare */
+.sitemaps {
+  width: 990px;
+  height: 110px;
+  margin: 0 auto;
+}
+.sitemaps .co {
+  position: relative;
+  float: left;
+  padding-left: 60px;
+  margin-right: 150px;
+  color: #666;
+  font: normal 14px \5FAE\8F6F\96C5\9ED1;
+}
+.sitemaps .contact {
+  margin-right: 100px;
+}
+.sitemaps .links {
+  margin-right: 0;
+}
+.sitemaps .co h3 {
+  margin-bottom: 10px;
+  font: 600 16px \9ed1\4f53;
+}
+.sitemaps .co p {
+  margin-bottom: 10px;
+}
+.sitemaps .co i {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 40px;
+  background: url(/images/mods.png) no-repeat 0 0;
+}
+.sitemaps .co li {
+  margin-bottom: 10px;
+}
+.sitemaps .contact i {
+  background-position: 10px 0;
+}
+.sitemaps .join-us i {
+  background-position: 0 -52px;
+}
+.sitemaps .links i {
+  background-position: 0 -102px;
+}
+.sitemaps address.co-wrap {
+  margin-top: 20px;
+}
+.sitemaps .co a:link,
+.sitemaps .co p, 
+.sitemaps .co abbr {
+  color: #999;
+}
+.sitemaps .co a:visited {
+  color: #999;
+}
+.sitemaps .co a:hover {
+  color: #f50;
+}
+.copyright {
+  padding-top: 15px;
+  text-align: center;
+  clear: both;
+  color: #666;
+}

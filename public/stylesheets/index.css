@@ -1,0 +1,42 @@
+.fl {float: left;}
+.fr {float: right;}
+
+/** main content **/
+.slider-content {
+	width: 860px;
+	margin: 110px 20px;
+}
+.slider-content .logo {
+	height: 120px;
+}
+.slider-content .wrapper {
+  position: relative;
+  height: 150px;
+  overflow: hidden;
+}
+.slider-content .wrapper .trigger {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.wrapper .trigger a {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #000;
+  margin-right: 2px;
+  background: rgba(255, 255, 255, .5)
+}
+.wrapper .trigger a.active-trigger {
+  color: #f60;
+}
+.text-panels {
+  margin-top: 40px;
+  font-size: 14px;
+}
+.text-panels span {
+  color: #999;
+  font-size: 12px;
+}
