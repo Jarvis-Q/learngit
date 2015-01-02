@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= title
+    meta(name= meta.name, content= meta.content)
+    link(rel="icon" type="image/x-icon" href="/images/favicon.ico")
+    link(rel="stylesheet", href="/stylesheets/global.css")
+    link(rel="stylesheet", href="/stylesheets/head_foot.css")
+    block layout-links
+    script(type="text/javascript" src="/javascripts/jquery.js")
+    script(type="text/javascript" src="/javascripts/head_foot.js")
+    block layout-scripts
+  body
+    include header
+    block content
+    include footer

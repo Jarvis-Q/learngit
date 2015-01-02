@@ -1,0 +1,37 @@
+#header
+  .gd-nav
+    -if (miniLogo)
+      .mini-logo
+        a
+          img(src='/images/logo-mini.png', alt='杭州广多')
+    ul.clearfix
+      - var items = {'index': '首页','product': '产品中心','issue': '行业动态','about': '关于我们','join': '诚聘英才'};
+      - for (var key in items)
+          li(trigger-id="#{key}")
+            - if (routePage == key)
+              a.current(href="/#{key}")= items[key]
+            - else
+              a(href="/#{key}")= items[key]
+  .child-menu
+    .arrow
+      i &#x25C6;
+    .menu-name.product
+      a(href='www.baidu.com') 电子招投标
+      i /
+      a(href='#') 智慧政务
+      i /
+      a(href='#') 智慧旅游
+    .menu-name.about
+      a(href='/about/introduction') 企业简介
+      i /
+      a(href='/about/research') 研究所
+      i /
+      a(href='/about/organization') 组织结构
+    .menu-name.join
+      a(href='/join/team') 团队介绍
+      i /
+      a(href='/join/growup') 成长空间
+      i /
+      a(href='/join/social') 社会招聘
+      i /
+      a(href='/join/campus') 实习生招聘

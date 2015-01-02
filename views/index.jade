@@ -1,0 +1,36 @@
+extends layout.jade
+
+block append layout-links
+  link(rel="stylesheet" href="/stylesheets/index.css")
+block append layout-scripts
+  script(type="text/javascript" src="/javascripts/index.js")
+block content
+  #bodyer
+    .slider-content.clearfix
+      .logo.fl
+        a
+          img(src="/images/logo.png", alt="杭州广多")
+      .information.fr
+        .wrapper
+          ul
+            li
+              img(src="/images/invite.png", alt="招聘")
+            li
+              img(src='http://dummyimage.com/500x150/333333/000fde.jpg&text=we glad to your join', alt='')
+            li
+              img(src="http://dummyimage.com/500x150/999999/000fde.jpg&text=our's name GD", alt='')
+          .trigger
+            a(href="javascript:void(0);") 1
+            a(href="javascript:void(0);") 2
+            a(href="javascript:void(0);") 3
+        .text-panels
+          ul
+            li 
+              a(href="javascript:void(0);") 1. 我司开展软件大赛活动  
+              span 2010-2-5
+            li 
+              a(href="javascript:void(0);") 1. 我司开展软件大赛活动  
+              span 2010-2-5
+            li 
+              a(href="javascript:void(0);") 1. 我司开展软件大赛活动  
+              span 2010-2-5
